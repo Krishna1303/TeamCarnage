@@ -20,7 +20,6 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 import java.util.Random;
 
 public class MsgAdapter extends FirebaseRecyclerAdapter<Messages,MsgAdapter.MsgViewHolder> {
-    Random r =  new Random();
     GradientDrawable p = new GradientDrawable();
     Listeners mListeners;
     public interface Listeners {

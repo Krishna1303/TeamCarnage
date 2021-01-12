@@ -53,12 +53,8 @@ public class ChatScreen extends AppCompatActivity {
         adapter = new MsgAdapter(values);
         r.setAdapter(adapter);
         r.smoothScrollToPosition(Integer.parseInt(msgNumFinder())-1);
-        adapter.setOnListeners(new MsgAdapter.Listeners() {
-            @Override
-            public void onItemClick(int position) {
-                Toast.makeText(ChatScreen.this, "CLICKED ITEM NO-"+String.valueOf(position+1), Toast.LENGTH_LONG).show();
-            }
-        });
+        adapter.setOnListeners(position ->
+                Toast.makeText(ChatScreen.this, "CLICKED ITEM NO-"+String.valueOf(position+1), Toast.LENGTH_LONG).show());
     }
     @Override protected void onStart()
     {
