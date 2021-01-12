@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130487058214",
+    "project_id": "team-carnage",
+    "storage_bucket": "team-carnage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130487058214:android:61efb0e092611a8be08be7",
+        "android_client_info": {
+          "package_name": "com.example.teamcarnage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130487058214-cqfudm0lk91m2gese7523ud4nr7m6tlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArAOnNCk0_beu9ZLiC4faNUcO4y1hB1Io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130487058214-cqfudm0lk91m2gese7523ud4nr7m6tlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
